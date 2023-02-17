@@ -147,3 +147,48 @@ img {
 
 }
 
+@media screen and (max-width: 480px) {
+
+    /* lesson section  */
+
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .lessons .col .card { 
+    margin-top: 3rem;
+    }
+
+    /* Steps section  */
+
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps .col .card { 
+        margin-top: 3rem;
+        }
+
+
+    /* why section  */
+
+    .why-us .row {
+        flex-direction: column;
+    }
+
+    .why-us .row .col {
+        width: 100%;
+        margin: 3rem 0;
+    }
+}
+
