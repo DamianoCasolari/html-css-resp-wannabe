@@ -125,6 +125,9 @@ img {
     margin-bottom: 2.5rem;
 }
 
+.img_in_why_list {
+    display: none;
+}
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
@@ -146,6 +149,37 @@ img {
 
     }
 
+      /* why tablet section  */
+      .why-us .col-left {
+        display: none;
+        
+      }
+      .why-us .col-right {
+        width: 100%;
+        
+      }
+      .why-us .row {
+        display: block;
+
+      }
+
+      .img_in_why_list {
+        display: block;
+        float: left;
+        width: 40%;
+        margin: 20px;
+    }
+    
+      .why-us .row::after {
+        content: "";
+        display: table;
+        clear: both;
+
+      }
+      
+      
+
+
 }
 
 /* ---------Phone responsive---------- */
@@ -153,6 +187,10 @@ img {
 
     /* lesson section  */
 
+    .col-left {
+        width: 100%;
+        margin: 3rem 0;
+    }
 
     h2 {
         margin-bottom: 0;
@@ -184,8 +222,24 @@ img {
 
     /* why section  */
 
-    .why-us .row {
-        flex-direction: column;
+
+    .why-us .col-left {
+        display: block;
+        
+      }
+      .why-us .col-right {
+        width: 100%;
+        
+      }
+      .why-us .row {
+        display: flex;
+        flex-direction: row;
+
+      }
+
+      .img_in_why_list {
+        display: none;
+       
     }
 
     .why-us .row .col {
