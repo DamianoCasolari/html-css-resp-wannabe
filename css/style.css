@@ -129,7 +129,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* Tablel responsive */
+/* ---------Desktop responsive-------- */
 
 @media screen and (max-width: 1140px) {
     .container {
@@ -138,6 +138,7 @@ img {
 
 }
 
+/* --------Tablel responsive------- */
 @media screen and (max-width: 768px) {
 
     .steps .col img {
@@ -147,6 +148,7 @@ img {
 
 }
 
+/* ---------Phone responsive---------- */
 @media screen and (max-width: 480px) {
 
     /* lesson section  */
